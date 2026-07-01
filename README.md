@@ -1,29 +1,30 @@
 # 📊 Customer Churn Analysis & Prediction
 
-A complete end-to-end Machine Learning project focused on analyzing customer churn and building predictive models to identify customers at risk of leaving a telecommunications company.
+An end-to-end Machine Learning project focused on analyzing customer churn and building predictive models to identify customers at risk of leaving a telecommunications company.
 
-This project combines Exploratory Data Analysis (EDA), data preprocessing, feature engineering, predictive modeling, and business interpretation to generate actionable insights for customer retention.
+The project combines Exploratory Data Analysis (EDA), data preprocessing, feature engineering, predictive modeling, and business interpretation to generate actionable customer retention insights.
 
 ---
-## 📊 Model Performance Comparison
+
+# 📈 Model Performance Comparison
 
 ![Model Comparison](images/model_comparison.png)
 
 ---
 
-## ⭐ Feature Importance
+# ⭐ Top 10 Most Important Features
 
 ![Feature Importance](images/feature_importance.png)
 
 ---
 
-## 📈 ROC Curve
+# 📈 ROC Curve
 
 ![ROC Curve](images/roc_curve.png)
 
 ---
 
-## 🎯 Project Objectives
+# 🎯 Project Objectives
 
 The main goals of this project are:
 
@@ -31,12 +32,12 @@ The main goals of this project are:
 - Identify the main factors influencing customer churn.
 - Prepare the dataset for Machine Learning.
 - Train and evaluate predictive classification models.
-- Compare different algorithms.
+- Compare different Machine Learning algorithms.
 - Translate model results into business insights.
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
 The dataset contains customer information from a telecommunications company, including:
 
@@ -45,19 +46,20 @@ The dataset contains customer information from a telecommunications company, inc
 - Internet services
 - Additional services
 - Payment methods
-- Monthly and total charges
+- Monthly charges
 - Customer tenure
 - Churn status
 
-Target variable:
+### Target Variable
 
-- **Churn**
-  - Yes = Customer left
-  - No = Customer stayed
+**Churn**
+
+- Yes → Customer left
+- No → Customer stayed
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -69,7 +71,7 @@ Target variable:
 
 ---
 
-## 📈 Exploratory Data Analysis
+# 📊 Exploratory Data Analysis
 
 The EDA explored relationships between customer churn and several business variables, including:
 
@@ -86,28 +88,29 @@ Multiple visualizations and business insights were generated for each feature.
 
 ---
 
-## 🤖 Machine Learning Pipeline
+# 🤖 Machine Learning Pipeline
 
 The project follows a complete Machine Learning workflow:
 
 1. Data Cleaning
-2. Feature Engineering
-3. One-Hot Encoding
-4. Train/Test Split
-5. Logistic Regression (Baseline)
-6. Random Forest Classifier
-7. Model Evaluation
-8. Feature Importance Analysis
-9. Business Interpretation
+2. Data Preprocessing
+3. Feature Engineering
+4. One-Hot Encoding
+5. Train/Test Split
+6. Logistic Regression (Baseline)
+7. Random Forest Classifier
+8. Model Evaluation
+9. Feature Importance Analysis
+10. Business Interpretation
 
 ---
 
-## 📊 Models Compared
+# 📈 Models Compared
 
 ### Logistic Regression
 
 - Baseline classification model
-- Simple and highly interpretable
+- Highly interpretable
 - Excellent benchmark performance
 
 ### Random Forest
@@ -118,26 +121,21 @@ The project follows a complete Machine Learning workflow:
 
 ---
 
-## 📈 Evaluation Metrics
+# 📏 Evaluation Metrics
 
-Models were evaluated using:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC Curve
-- AUC Score
-- Confusion Matrix
+| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|-------|----------|-----------|--------|----------|---------|
+| Logistic Regression | 0.80 | 0.64 | 0.57 | 0.60 | 0.836 |
+| Random Forest | 0.79 | 0.63 | 0.52 | 0.57 | 0.818 |
 
 ---
 
-## ⭐ Key Business Insights
+# 💡 Key Business Insights
 
 The analysis revealed several important drivers of customer churn:
 
 - Customers with month-to-month contracts are significantly more likely to churn.
-- Short-tenure customers have the highest churn risk.
+- Short-tenure customers present the highest churn risk.
 - Higher monthly charges are associated with increased churn.
 - Fiber optic customers churn more frequently than DSL customers.
 - Customers without Online Security and Tech Support are considerably more likely to leave.
@@ -148,54 +146,50 @@ These findings can support customer retention strategies by identifying high-ris
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 Project_02_Customer_Churn/
-│
-├── data/
-│
-├── images/
+
+├── data/                      # Dataset
+├── images/                    # Figures displayed in README
 │   ├── feature_importance.png
 │   ├── model_comparison.png
 │   └── roc_curve.png
-│
 ├── notebooks/
 │   └── 02_customer_churn_analysis.ipynb
-│
 ├── reports/
-│
 ├── src/
-│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ---
 
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 
-Possible extensions of this project include:
+Possible future enhancements include:
 
 - Hyperparameter tuning with GridSearchCV
-- Cross-validation
-- Feature selection techniques
-- XGBoost implementation
-- LightGBM implementation
-- Interactive Power BI dashboard
-- Model deployment with Streamlit or Flask
+- SHAP Explainability
+- Compare additional ML algorithms (XGBoost, LightGBM)
+- Interactive Power BI Dashboard
+- Deploy the model using Streamlit
 
 ---
 
-## 👤 Author
+# 👨‍💻 Author
 
-**Martin Panelo**
+## Martin Panelo
 
-Geoscientist transitioning into Data Analytics and Machine Learning.
+Geophysicist transitioning into Data Analytics and Machine Learning.
 
-- LinkedIn: https://www.linkedin.com/in/martinpanelo/
-- GitHub: https://github.com/PaneloMartin
+📍 Buenos Aires, Argentina
+
+- 💼 LinkedIn: https://www.linkedin.com/in/martinpanelo/
+- 💻 GitHub: https://github.com/PaneloMartin
 
 ---
 
-⭐ If you found this project interesting, feel free to explore the notebook and connect with me on LinkedIn.
+⭐ If you found this project interesting, feel free to connect with me on LinkedIn.

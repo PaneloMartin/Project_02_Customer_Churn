@@ -5,6 +5,23 @@ A complete end-to-end Machine Learning project focused on analyzing customer chu
 This project combines Exploratory Data Analysis (EDA), data preprocessing, feature engineering, predictive modeling, and business interpretation to generate actionable insights for customer retention.
 
 ---
+## 📊 Model Performance Comparison
+
+![Model Comparison](images/model_comparison.png)
+
+---
+
+## ⭐ Feature Importance
+
+![Feature Importance](images/feature_importance.png)
+
+---
+
+## 📈 ROC Curve
+
+![ROC Curve](images/roc_curve.png)
+
+---
 
 ## 🎯 Project Objectives
 
@@ -133,16 +150,26 @@ These findings can support customer retention strategies by identifying high-ris
 
 ## 📁 Project Structure
 
-```
+```text
 Project_02_Customer_Churn/
+│
+├── data/
+│
+├── images/
+│   ├── feature_importance.png
+│   ├── model_comparison.png
+│   └── roc_curve.png
 │
 ├── notebooks/
 │   └── 02_customer_churn_analysis.ipynb
 │
+├── reports/
+│
+├── src/
+│
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 
 ---
 

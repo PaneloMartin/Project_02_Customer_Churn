@@ -306,9 +306,6 @@ The objective is not simply to predict churn, but to transform predictive result
 
 ---
 
-## 📁 Project Structure
-
-```text
 Project_02_Customer_Churn/
 
 ├── data/
@@ -318,12 +315,9 @@ Project_02_Customer_Churn/
 │   └── roc_curve.png
 ├── notebooks/
 │   └── 02_customer_churn_analysis.ipynb
-├── reports/
-├── src/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 
 ---
 
